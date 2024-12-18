@@ -1,0 +1,161 @@
+name: Aqara Cube
+service: Zigbee2MQTT
+event_type: mqtt
+mqtt_topic_format: zigbee2mqtt/+
+buttons:
+  - d: "M 44.923811,243.62528 324.83371,38.876375 l 11.23095,-3.455678 11.23095,6.911355 131.31576,245.353118 v 17.27839 l -7.77528,16.41447 -328.28938,209.0685 -15.55055,-4.31959 -8.6392,-7.77528 -73.433149,-266.08718 z"  
+    actions:
+      - title: tap-top
+        conditions:
+          - key: action
+            value: tap
+          - key: side
+            value: 0      
+      - title: flip90-top
+        conditions:
+          - key: action
+            value: flip90
+          - key: side
+            value: 0
+      - title: rotate_right-top
+        conditions:
+          - key: action
+            value: rotate_right
+          - key: side
+            value: 0
+      - title: rotate_left-top
+        conditions:
+          - key: action
+            value: rotate_left
+          - key: side
+            value: 0
+  - d: "m 151,552 8,-9 320,-203 17,-4 13,1 120,132 3,7 -6,8 -275,159 -14,2 -8,-2 -177,-82 -4,-9 z"
+    actions:
+      - title: tap-front
+        conditions:
+          - key: action
+            value: tap
+          - key: side
+            value: 5
+      - title: flip90-front
+        conditions:
+          - key: action
+            value: flip90
+          - key: side
+            value: 5
+      - title: rotate_right-front
+        conditions:
+          - key: action
+            value: rotate_right
+          - key: side
+            value: 5
+      - title: rotate_left-front
+        conditions:
+          - key: action
+            value: rotate_left
+          - key: side
+            value: 5  
+  - d: "M 507,304 358,38 502,216 635,441 637,453 523,324 Z"
+    actions:
+      - title: tap-right
+        conditions:
+          - key: action
+            value: tap
+          - key: side
+            value: 1
+      - title: flip90-right
+        conditions:
+          - key: action
+            value: flip90
+          - key: side
+            value: 1
+      - title: rotate_right-right
+        conditions:
+          - key: action
+            value: rotate_right
+          - key: side
+            value: 1  
+      - title: rotate_left-right
+        conditions:
+          - key: action
+            value: rotate_left
+          - key: side
+            value: 1  
+  - d: "m 13,475 17,35 41,-39 -1,-26 -23,-7 z"
+    actions:
+      - title: tap-left
+        conditions:
+          - key: action
+            value: tap
+          - key: side
+            value: 4
+      - title: flip90-left
+        conditions:
+          - key: action
+            value: flip90
+          - key: side
+            value: 4
+      - title: rotate_right-left
+        conditions:
+          - key: action
+            value: rotate_right
+          - key: side
+            value: 4  
+      - title: rotate_left-left
+        conditions:
+          - key: action
+            value: rotate_left
+          - key: side
+            value: 4  
+  - d: "m 76,81 25,-21 26,40 -4,24 -29,-5 z"
+    actions:
+      - title: tap-back
+        conditions:
+          - key: action
+            value: tap
+          - key: side
+            value: 2
+      - title: flip90-back
+        conditions:
+          - key: action
+            value: flip90
+          - key: side
+            value: 2
+      - title: rotate_right-back
+        conditions:
+          - key: action
+            value: rotate_right
+          - key: side
+            value: 2 
+      - title: rotate_left-back
+        conditions:
+          - key: action
+            value: rotate_left
+          - key: side
+            value: 2 
+  - d: "m 593,637 29,-23 -39,-47 -32,-5 v 25 z"
+    actions:
+      - title: tap-bottom
+        conditions:
+          - key: action
+            value: tap
+          - key: side
+            value: 3
+      - title: flip90-bottom
+        conditions:
+          - key: action
+            value: flip90
+          - key: side
+            value: 3
+      - title: rotate_right-bottom
+        conditions:
+          - key: action
+            value: rotate_right
+          - key: side
+            value: 3
+      - title: rotate_left-bottom
+        conditions:
+          - key: action
+            value: rotate_left
+          - key: side
+            value: 3
